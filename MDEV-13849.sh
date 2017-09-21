@@ -45,8 +45,8 @@ myspider/spider_create_table_filter_execute.sh "$(cat ddl.sql)"
 echo check tables are here on each node
 myspider/sql.sh 'select count(*) from history'
 
-echo populate 10000 rows through root node
-for i in {1..1000} ; do
+echo populate 100000 rows through root node
+for i in {1..100000} ; do
   m1*/sql.sh insert into history select $i, $i, $i, $i
 done
 
