@@ -1,7 +1,15 @@
 set -e
+
+echo Setup default Environs cluster if needed
+if [ ! -e common.sh ] ; then
+  git clone http://github.com/AndriiNikitin/mariadb-environs
+  cd mariadb-environs
+fi
+echo get plugins
 ./get_plugin.sh oracle-mysql
 ./get_plugin.sh spider
 
+echo generate templates
 ./replant.sh m1-10.2.8
 ./replant.sh o1-5.7.19
 ./replant.sh o2-5.7.19
@@ -13,14 +21,18 @@ echo o1 >> myspider/nodes.lst
 echo o2 >> myspider/nodes.lst
 echo o3 >> myspider/nodes.lst
 
+echo download and unpack tar packages
 m1*/download.sh &
 o1*/download.sh &
 wait
 
-myspider/gen_cnf.sh innodb_flush_log_at_trx_commit=1
+echo generate my.cnf and install datadirs
+myspider/gen_cnf.sh innodb_flush_log_at_trx_commit=0
 myspider/install_db.sh
+echo start up servers
 myspider/startup.sh
 
+echo initialize root node
 m1*/sql.sh source _plugin/spider/_script/install_spider.sql
 
 tee ddl.sql <<'EOF'
