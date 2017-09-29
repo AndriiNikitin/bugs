@@ -17,7 +17,7 @@ if m1*/galera_start_new.sh $WSREP_EXTRA_OPT ; then
   m1*/status.sh
 else
   echo '***'
-  echo 'Failed to connect, below are resent messages from log:'
+  echo 'Failed to connect, below are recent messages from log:'
   echo '***'
   tail m1*/dt/error.log
   exit 1
