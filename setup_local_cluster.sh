@@ -23,7 +23,7 @@ echo m2 >> cluster1/nodes.lst
 
 # create all nodes as system2 framework and init datadir for each
 cluster1/replant.sh system2
-cluster1/gen_cnf.sh $MYSQLD_EXTA_OPT # e.g. --general_log=1
+cluster1/gen_cnf.sh $MYSQLD_EXTA_OPT # e.g. general_log=1
 cluster1/install_db.sh $MYSQLD_EXTA_OPT
 
 # replace first node with scripts for installed binaries
