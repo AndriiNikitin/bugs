@@ -65,7 +65,7 @@ m1*/sql_loop.sh "insert into mytable select floor(rand()*${PARTITION_COUNT}),flo
 m1*/sql_loop.sh "insert into mytable select floor(rand()*${PARTITION_COUNT}),floor(rand()*$PARTITION_COUNT),now(),floor(rand()*10000)" &
 m1*/sql_loop.sh "insert into mytable select floor(rand()*${PARTITION_COUNT}),floor(rand()*$PARTITION_COUNT),now(),floor(rand()*10000)" &
 m1*/sql_loop.sh "insert into mytable select floor(rand()*${PARTITION_COUNT}),floor(rand()*$PARTITION_COUNT),now(),floor(rand()*10000)" &
-m1*/sql_loop.sh "select id into @x from information_schema.processlist where id>10 and rand()<0.3 limit 1; kill @x" 3 &
+m1*/sql_loop.sh "select id into @x from information_schema.processlist where id>10 and rand()<0.3 limit 1; kill @x" 1 &
 m1*/sql_loop.sh 'show table status' &
 while :; do
 m1*/sql.sh 'show processlist; show global status like "Com_insert%"; show global status like "Handler_commit"'
