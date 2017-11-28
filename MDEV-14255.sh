@@ -49,8 +49,8 @@ cluster1/galera_start_new.sh wsrep_sst_method=xtrabackup-v2
 sleep 45
 cluster1/galera_cluster_size.sh
 cluster1/sql.sh 'show variables like "wsrep_sst_method"'
-grep -A10 -B10 -i "\[ERROR\]" m0*/dt/error.log || echo no errors found
+grep -A10 -B10 -i "\[ERROR\]" m1*/dt/error.log || echo no errors found
 
-cluster_size=$(m0*/sql.sh 'show status like "wsrep_cluster_size"')
+cluster_size=$(m1*/sql.sh 'show status like "wsrep_cluster_size"')
 
 [[ "${cluster_size}" =~ 2 ]] && passed=1
