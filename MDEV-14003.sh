@@ -17,4 +17,4 @@ $env/container_create.sh
 
 $env/exec-i.sh './build_or_download.sh m0'
 $env/exec-i.sh 'yum install -y perl-Time-HiRes perl-Memoize'
-$env/exec-i.sh './m0*/bld/mysql-test/mtr --suite=rocksdb --par=4 --mem'
+$env/exec-i.sh './m0*/bld/mysql-test/mtr --suite=spider,spider/bg,spider/handler --force --par=4 --mem --big-test'
