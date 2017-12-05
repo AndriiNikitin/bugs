@@ -1,0 +1,221 @@
+Installing MariaDB/MySQL system tables in '/home/a/env4/m1-10.2.11/dt' ...
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MariaDB root USER !
+To do so, start the server, then issue the following commands:
+
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqladmin' -u root password 'new-password'
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqladmin' -u root -h UBINTI password 'new-password'
+
+Alternatively you can run:
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysql_secure_installation'
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the MariaDB Knowledgebase at http://mariadb.com/kb or the
+MySQL manual for more instructions.
+
+You can start the MariaDB daemon with:
+cd '/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11' ; /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld_safe --datadir='/home/a/env4/m1-10.2.11/dt'
+
+You can test the MariaDB daemon with mysql-test-run.pl
+cd '/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/mysql-test' ; perl mysql-test-run.pl
+
+Please report any problems at http://mariadb.org/jira
+
+The latest information about MariaDB is available at http://mariadb.org/.
+You can find additional information about the MySQL part at:
+http://dev.mysql.com
+Consider joining MariaDB's strong and vibrant community:
+https://mariadb.org/get-involved/
+
+mysqld is alive
+11557.89378929
+15128 a         20   0 16.864g 0.011t  17152 S 705.3 18.2   3:24.89 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+15589.22268486
+15128 a         20   0 19.776g 0.015t  17152 S 616.7 24.4   4:30.83 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19104.41919518
+15128 a         20   0 24.366g 0.018t  17152 S 638.9 29.8   5:35.38 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22450.22497368
+15128 a         20   0 26.886g 0.022t  17152 S 550.0 35.1   6:39.91 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+25558.46264458
+15128 a         20   0 29.402g 0.024t  17152 S 627.8 39.9   7:45.13 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+28003.55981255
+15128 a         20   0 31.612g 0.027t  17152 S 557.9 43.3   8:50.19 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+18049.59475517
+15128 a         20   0 27.778g 0.022t  17152 S  1093 35.7  10:46.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22204.61240196
+15128 a         20   0 28.859g 0.024t  17152 S  1026 38.3  12:50.61 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+23299.57424736
+15128 a         20   0 30.290g 0.025t  17152 S  1129 40.5  15:00.65 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19839.64459801
+15128 a         20   0 30.411g 0.025t  17152 S  1168 40.0  17:12.59 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+25420.18311119
+15128 a         20   0 31.429g 0.026t  17152 S  1073 41.9  19:18.65 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19911.89452934
+15128 a         20   0 30.525g 0.025t  17152 S  1023 40.0  21:32.21 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20390.18893242
+15128 a         20   0 30.660g 0.025t  17152 S  1065 39.9  23:38.39 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+23899.22566032
+15128 a         20   0 31.585g 0.026t  17152 S 977.4 42.1  25:47.25 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19350.74979210
+15128 a         20   0 32.231g 0.026t  17152 S  1091 42.5  27:56.66 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21839.19574547
+15128 a         20   0 31.947g 0.026t  17152 S  1043 42.4  30:08.20 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+18988.05515099
+15128 a         20   0 32.091g 0.026t  17152 S  1024 42.6  32:17.26 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22607.90155602
+15128 a         20   0 32.915g 0.027t  17152 S  1027 43.8  34:23.02 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21907.48419762
+15128 a         20   0 33.725g 0.028t  17152 S  1100 45.6  36:26.90 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21293.74067497
+15128 a         20   0 35.099g 0.029t  17152 S 766.7 47.7  38:22.16 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19717.72025871
+15128 a         20   0 36.289g 0.031t  17152 S  1132 49.7  40:14.05 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20415.30942345
+15128 a         20   0 36.996g 0.031t  17152 S 766.7 51.1  41:45.73 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22001.67166710
+15128 a         20   0 38.501g 0.033t  17152 S 789.5 53.4  43:22.34 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22906.58659172
+15128 a         20   0 40.055g 0.034t  17152 S  1105 55.6  45:20.65 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+23672.24945641
+15128 a         20   0 40.912g 0.035t  17152 S  1075 57.3  47:18.46 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+23726.56595421
+15128 a         20   0 41.770g 0.036t  17152 S  1068 58.3  49:28.00 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21903.99138451
+15128 a         20   0 42.272g 0.036t  17152 S  1067 59.0  51:42.88 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21523.54131889
+15128 a         20   0 41.907g 0.036t  17152 S 882.8 58.6  53:48.29 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19717.29350090
+15128 a         20   0 41.422g 0.035t  17216 S  1044 57.7  55:52.58 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21290.23151207
+15128 a         20   0 41.516g 0.036t  17216 S  1104 58.1  57:55.72 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20493.76398277
+15128 a         20   0 42.648g 0.037t  17216 S  1048 59.6  59:56.96 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21357.28851128
+15128 a         20   0 43.644g 0.038t  17216 S  1050 61.3  61:59.13 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22475.23309898
+15128 a         20   0 44.272g 0.038t  17216 S  1033 62.2  64:01.45 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21243.61087608
+15128 a         20   0 44.819g 0.039t  17216 S  1070 63.1  66:02.52 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22776.57357597
+15128 a         20   0 45.014g 0.039t  17216 S  1035 63.3  68:04.86 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19769.58164024
+15128 a         20   0 45.351g 0.039t  17216 S 940.7 63.9  70:06.42 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21089.76660728
+15128 a         20   0 45.574g 0.039t  17216 S  1064 64.2  72:09.43 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22682.41446495
+15128 a         20   0 46.273g 0.040t  17216 S  1200 65.6  74:14.08 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21016.40338707
+15128 a         20   0 46.040g 0.040t  17216 S  1011 64.8  76:18.20 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+23055.30356407
+15128 a         20   0 46.302g 0.040t  17216 S 996.9 65.3  78:23.03 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19987.40839195
+15128 a         20   0 45.977g 0.040t  17216 S  1012 64.7  80:26.84 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21344.79019737
+15128 a         20   0 45.665g 0.039t  17216 S  1069 64.2  82:30.19 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21215.38564110
+15128 a         20   0 46.352g 0.040t  17216 S  1058 65.4  84:34.80 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21154.44065666
+15128 a         20   0 46.352g 0.040t  17216 S  1071 65.4  86:39.12 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21170.37964439
+15128 a         20   0 46.602g 0.040t  17216 S  1082 65.9  88:44.68 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22125.23184776
+15128 a         20   0 46.540g 0.040t  17216 S  1050 65.9  90:49.43 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21199.97696495
+15128 a         20   0 46.602g 0.040t  17216 S  1191 65.7  92:54.14 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22529.84448051
+15128 a         20   0 47.602g 0.041t  17216 S  1050 67.3  94:58.81 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21003.40496635
+15128 a         20   0 47.415g 0.041t  17216 S  1150 67.3  97:01.09 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21750.25565147
+15128 a         20   0 47.915g 0.042t  17216 S  1058 68.0  99:03.58 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21175.13291740
+15128 a         20   0 47.602g 0.041t  17216 S  1037 67.5 101:08.37 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21521.51550865
+15128 a         20   0 48.102g 0.042t  17216 S  1140 68.2 103:11.80 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20560.40882683
+15128 a         20   0 48.102g 0.042t  17216 S  1150 68.3 105:15.27 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21255.04753685
+15128 a         20   0 49.040g 0.043t  17216 S  1081 69.8 107:19.50 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21268.85941124
+15128 a         20   0 49.227g 0.043t  17216 S  1083 69.9 109:23.48 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22368.41736412
+15128 a         20   0 49.727g 0.044t  17216 S  1076 70.9 111:28.34 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20643.73497581
+15128 a         20   0 48.977g 0.043t  17216 S  1070 69.5 113:31.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21404.61798668
+15128 a         20   0 48.352g 0.042t  17216 S  1078 68.6 115:35.32 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19968.18027306
+15128 a         20   0 48.727g 0.043t  17216 S  1121 69.3 117:37.97 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20770.50059319
+15128 a         20   0 48.727g 0.042t  17216 S  1077 69.1 119:41.14 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21064.34039116
+15128 a         20   0 49.040g 0.043t  17216 S  1060 69.9 121:44.43 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21817.89089775
+15128 a         20   0 48.996g 0.043t  17216 S  1039 69.8 123:47.44 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21387.02472496
+15128 a         20   0 48.896g 0.043t  17216 S  1000 69.5 125:52.78 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20542.29001427
+15128 a         20   0 49.026g 0.043t  17216 S  1104 69.7 127:58.61 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20477.66971397
+15128 a         20   0 49.354g 0.043t  17216 S  1160 70.0 130:02.32 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20835.01843834
+15128 a         20   0 48.926g 0.042t  17216 S  1118 69.3 132:08.03 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20799.26020622
+15128 a         20   0 48.650g 0.042t  17216 S  1043 68.8 134:10.91 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21132.07141685
+15128 a         20   0 49.429g 0.043t  17216 S  1037 70.1 136:14.23 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20169.92935753
+15128 a         20   0 48.635g 0.042t  17216 S 970.0 68.8 138:17.85 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21774.41905785
+15128 a         20   0 49.156g 0.043t  17216 S  1061 69.7 140:20.66 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21551.51861382
+15128 a         20   0 49.225g 0.043t  17216 S  1057 69.8 142:22.57 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21114.50510216
+15128 a         20   0 49.071g 0.043t  17216 S  1013 69.4 144:26.48 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21066.60425377
+15128 a         20   0 49.286g 0.043t  17216 S  1116 69.7 146:30.80 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20105.00235558
+15128 a         20   0 48.506g 0.042t  17216 S  1090 68.3 148:34.53 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20945.19885063
+15128 a         20   0 48.783g 0.042t  17216 S  1076 69.0 150:37.95 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21695.06107140
+15128 a         20   0 49.232g 0.043t  17216 S 927.6 69.6 152:41.78 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21437.64561272
+15128 a         20   0 49.073g 0.043t  17216 S  1048 69.6 154:48.22 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21469.92304039
+15128 a         20   0 49.351g 0.043t  17216 S  1052 69.8 156:53.97 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21458.02035332
+15128 a         20   0 49.432g 0.043t  17216 S  1085 70.0 158:59.30 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20600.01404381
+15128 a         20   0 49.397g 0.043t  17216 S  1070 69.8 161:05.15 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21575.79712486
+15128 a         20   0 49.723g 0.043t  17216 S  1000 70.4 163:11.00 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19396.18357658
+15128 a         20   0 48.821g 0.042t  17216 S  1097 68.7 165:17.42 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21333.52670097
+15128 a         20   0 49.054g 0.043t  17216 S  1036 69.5 167:23.40 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20083.04825401
+15128 a         20   0 48.273g 0.042t  17216 S  1104 68.1 169:39.52 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22896.26047325
+15128 a         20   0 49.058g 0.043t  17216 S  1080 69.4 171:44.74 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+21163.27824211
+15128 a         20   0 49.011g 0.043t  17216 S  1111 69.3 173:50.58 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20978.95261955
+15128 a         20   0 48.377g 0.042t  17216 S 992.9 68.2 175:56.94 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20749.19692039
+15128 a         20   0 48.532g 0.042t  17216 S  1073 68.7 178:00.21 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+20259.40051842
+15128 a         20   0 48.925g 0.042t  17216 S  1072 69.1 180:01.90 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22247.25192833
+15128 a         20   0 49.268g 0.043t  17216 S  1084 69.9 182:05.36 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+19765.01056480
+15128 a         20   0 48.810g 0.042t  17216 S  1107 69.1 184:10.98 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+22056.44435692
+15128 a         20   0 49.123g 0.043t  17216 S  1158 69.7 186:16.80 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
