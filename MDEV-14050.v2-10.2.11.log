@@ -1,0 +1,100 @@
+Already up-to-date.
+Installing MariaDB/MySQL system tables in '/home/a/env4/m1-10.2.11/dt' ...
+OK
+
+To start mysqld at boot time you have to copy
+support-files/mysql.server to the right place for your system
+
+PLEASE REMEMBER TO SET A PASSWORD FOR THE MariaDB root USER !
+To do so, start the server, then issue the following commands:
+
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqladmin' -u root password 'new-password'
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqladmin' -u root -h UBINTI password 'new-password'
+
+Alternatively you can run:
+'/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysql_secure_installation'
+
+which will also give you the option of removing the test
+databases and anonymous user created by default.  This is
+strongly recommended for production servers.
+
+See the MariaDB Knowledgebase at http://mariadb.com/kb or the
+MySQL manual for more instructions.
+
+You can start the MariaDB daemon with:
+cd '/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11' ; /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld_safe --datadir='/home/a/env4/m1-10.2.11/dt'
+
+You can test the MariaDB daemon with mysql-test-run.pl
+cd '/home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/mysql-test' ; perl mysql-test-run.pl
+
+Please report any problems at http://mariadb.org/jira
+
+The latest information about MariaDB is available at http://mariadb.org/.
+You can find additional information about the MySQL part at:
+http://dev.mysql.com
+Consider joining MariaDB's strong and vibrant community:
+https://mariadb.org/get-involved/
+
+mysqld is alive
+10.2.11-MariaDB
+1001010
+Total size of HEAP tables: 26788 Mb
+17945 a         20   0 30.212g 0.026t  17192 S 687.5 42.0   4:39.50 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 30323 Mb
+17945 a         20   0 32.775g 0.029t  17192 S 511.1 47.4   5:38.01 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 33365 Mb
+17945 a         20   0 35.525g 0.032t  17192 S 506.2 52.1   6:34.69 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 36123 Mb
+17945 a         20   0 38.025g 0.035t  17192 S 562.5 56.4   7:31.82 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 39025 Mb
+17945 a         20   0 40.587g 0.037t  17192 S 488.2 60.9   8:28.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 41479 Mb
+17945 a         20   0 43.025g 0.040t  17192 S 641.2 64.7   9:24.87 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 40544 Mb
+17945 a         20   0 41.712g 0.038t  17192 S 593.8 62.0  10:24.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 33277 Mb
+17945 a         20   0 39.275g 0.035t  17192 S 991.3 56.5  12:16.81 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37833 Mb
+17945 a         20   0 40.525g 0.037t  17192 S 733.3 59.7  13:54.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35679 Mb
+17945 a         20   0 41.587g 0.037t  17192 S  1005 60.3  15:43.38 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 38913 Mb
+17945 a         20   0 42.962g 0.039t  17192 S 900.0 63.1  17:27.56 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37412 Mb
+17945 a         20   0 43.962g 0.039t  17192 S  1065 64.1  19:15.77 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 41798 Mb
+17945 a         20   0 44.587g 0.041t  17192 S 947.1 66.2  21:06.45 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37530 Mb
+17945 a         20   0 44.650g 0.040t  17192 S 985.0 65.7  22:52.76 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35297 Mb
+17945 a         20   0 43.837g 0.039t  17192 S 959.1 63.5  24:50.73 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 38136 Mb
+17945 a         20   0 44.400g 0.040t  17192 S  1026 64.8  26:49.71 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 33998 Mb
+17945 a         20   0 45.025g 0.040t  17192 S  1081 65.2  28:50.46 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 38461 Mb
+17945 a         20   0 45.025g 0.040t  17192 S 995.2 65.6  30:50.55 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37162 Mb
+17945 a         20   0 43.587g 0.039t  17192 S  1067 64.0  32:51.79 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35956 Mb
+17945 a         20   0 44.212g 0.039t  17192 S 961.9 64.1  34:53.70 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37234 Mb
+17945 a         20   0 44.587g 0.040t  17192 S  1024 64.8  36:53.13 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35617 Mb
+17945 a         20   0 45.025g 0.040t  17192 S  1120 65.6  38:52.99 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 36642 Mb
+17945 a         20   0 44.275g 0.040t  17192 S  1170 64.4  40:53.46 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 36621 Mb
+17945 a         20   0 44.150g 0.040t  17192 S  1048 64.4  42:52.82 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 36514 Mb
+17945 a         20   0 44.712g 0.040t  17192 S  1009 65.0  44:52.92 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37572 Mb
+17945 a         20   0 45.150g 0.040t  17192 S  1032 65.7  46:55.76 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35796 Mb
+17945 a         20   0 44.837g 0.040t  17192 S 904.5 65.2  48:59.93 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35777 Mb
+17945 a         20   0 43.837g 0.039t  17192 S  1000 63.5  51:04.33 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 35220 Mb
+17945 a         20   0 44.275g 0.040t  17192 S  1111 64.6  53:09.24 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a
+Total size of HEAP tables: 37068 Mb
+17945 a         20   0 44.900g 0.040t  17192 S  1062 65.4  55:13.64 /home/a/env4/m1-10.2.11/../_depot/m-tar/10.2.11/bin/mysqld --defaults-file=/home/a/env4/m1-10.2.11/my.cnf --user=a

@@ -1,0 +1,79 @@
+Already up-to-date.
+2017-12-06 13:29:41 [WARNING] mysql_install_db is deprecated. Please consider switching to mysqld --initialize
+mysqld is alive
+5.7.20
+1001010
+Total size of HEAP tables: 27193 Mb
+23084 a         20   0 30.026g 0.026t  20088 S 781.2 42.8   5:14.59 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 31118 Mb
+23084 a         20   0 32.526g 0.030t  20088 S 805.9 48.8   6:32.61 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 34801 Mb
+23084 a         20   0 37.526g 0.033t  20088 S 843.8 54.6   7:52.73 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 38625 Mb
+23084 a         20   0 40.026g 0.037t  20088 S 823.5 60.5   9:16.54 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 42152 Mb
+23084 a         20   0 43.588g 0.041t  20088 S 829.4 66.0  10:44.17 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 29141 Mb
+23084 a         20   0 32.776g 0.029t  20088 S  1048 48.1  12:21.15 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 34305 Mb
+23084 a         20   0 36.276g 0.033t  20088 S 823.5 53.8  14:02.66 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36482 Mb
+23084 a         20   0 38.151g 0.035t  20088 S 761.1 57.2  15:28.96 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 40158 Mb
+23084 a         20   0 41.838g 0.039t  20088 S 761.1 62.9  16:53.88 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37325 Mb
+23084 a         20   0 39.963g 0.036t  20088 S 916.7 58.9  18:20.30 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 33035 Mb
+23084 a         20   0 35.026g 0.032t  20088 S 894.1 52.3  19:58.58 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35384 Mb
+23084 a         20   0 37.276g 0.034t  20088 S 764.7 55.5  21:28.15 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37319 Mb
+23084 a         20   0 38.776g 0.036t  20088 S 817.6 58.5  22:50.22 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 40517 Mb
+23084 a         20   0 42.526g 0.039t  20088 S 805.9 63.5  24:15.64 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37476 Mb
+23084 a         20   0 39.526g 0.036t  20088 S 882.4 59.2  25:49.86 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35069 Mb
+23084 a         20   0 36.963g 0.034t  20088 S 852.9 55.0  27:26.24 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36629 Mb
+23084 a         20   0 39.213g 0.036t  20088 S 960.0 58.6  29:03.37 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 39490 Mb
+23084 a         20   0 42.151g 0.039t  20088 S 905.9 62.9  30:43.19 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 38378 Mb
+23084 a         20   0 41.088g 0.038t  20088 S 983.3 61.1  32:25.46 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36559 Mb
+23084 a         20   0 39.776g 0.036t  20088 S  1016 59.3  34:12.96 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35261 Mb
+23084 a         20   0 37.526g 0.034t  20088 S  1082 55.8  35:59.60 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35991 Mb
+23084 a         20   0 39.026g 0.036t  20088 S 838.9 58.1  37:43.70 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37817 Mb
+23084 a         20   0 40.526g 0.037t  20088 S 844.4 60.3  39:25.73 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37570 Mb
+23084 a         20   0 39.901g 0.037t  20088 S 944.4 59.7  41:10.97 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36657 Mb
+23084 a         20   0 38.963g 0.036t  20088 S 952.9 58.2  42:51.59 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36784 Mb
+23084 a         20   0 38.651g 0.036t  20088 S 770.6 58.0  44:27.31 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36337 Mb
+23084 a         20   0 38.276g 0.035t  20088 S 823.5 57.1  46:06.23 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37091 Mb
+23084 a         20   0 39.338g 0.036t  20088 S 841.2 58.6  47:37.99 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 38385 Mb
+23084 a         20   0 40.651g 0.037t  20088 S 917.6 60.6  49:18.36 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35691 Mb
+23084 a         20   0 39.026g 0.036t  20088 S  1017 58.0  50:59.32 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37399 Mb
+23084 a         20   0 39.151g 0.036t  20088 S 870.6 59.0  52:40.72 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36029 Mb
+23084 a         20   0 37.463g 0.034t  20088 S 694.4 56.0  54:19.96 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36428 Mb
+23084 a         20   0 38.526g 0.035t  20088 S 925.0 57.7  55:52.46 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 37891 Mb
+23084 a         20   0 40.838g 0.037t  20088 S 982.4 60.9  57:30.22 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 38571 Mb
+23084 a         20   0 40.276g 0.037t  20088 S 905.9 60.6  59:15.68 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 36048 Mb
+23084 a         20   0 39.276g 0.036t  20088 S  1017 58.5  60:52.21 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
+Total size of HEAP tables: 35301 Mb
+23084 a         20   0 37.588g 0.034t  20088 S 861.1 55.9  62:32.82 /home/a/env4/o1-5.7.20/../_depot/o-tar/5.7.20/bin/mysqld --defaults-file=/home/a/env4/o1-5.7.20/my.cnf --user=a
